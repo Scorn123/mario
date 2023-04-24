@@ -1,9 +1,87 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T08:18:30.321Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/112.0" version="21.1.4" etag="_EZSiKcQfTd-YxWbdUu3" type="github">
-  <diagram name="Page-1" id="u7svPl1uvgGG2W0FHynv">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2023-04-24T08:28:45.159Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/112.0" etag="72riYtT9kpVkQOh4NNOU" version="21.1.4" type="github">
+  <diagram name="Items" id="u7svPl1uvgGG2W0FHynv">
+    <mxGraphModel dx="1050" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="B44wZf5BnNkXLBBZ9b6L-1" value="Controller" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="170" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="B44wZf5BnNkXLBBZ9b6L-2" value="PID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="B44wZf5BnNkXLBBZ9b6L-1">
+          <mxGeometry y="30" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B44wZf5BnNkXLBBZ9b6L-3" value="Frequency Domain Design" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="B44wZf5BnNkXLBBZ9b6L-1">
+          <mxGeometry y="60" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B44wZf5BnNkXLBBZ9b6L-4" value="LQR (Finit/Infinite horizon)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="B44wZf5BnNkXLBBZ9b6L-1">
+          <mxGeometry y="90" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B44wZf5BnNkXLBBZ9b6L-6" value="MPC (Receding horizon)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="B44wZf5BnNkXLBBZ9b6L-1">
+          <mxGeometry y="130" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B44wZf5BnNkXLBBZ9b6L-11" value="System ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="B44wZf5BnNkXLBBZ9b6L-1">
+          <mxGeometry y="170" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B44wZf5BnNkXLBBZ9b6L-12" value="Data driven predictive Control" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="B44wZf5BnNkXLBBZ9b6L-1">
+          <mxGeometry y="210" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B44wZf5BnNkXLBBZ9b6L-13" value="Robus MPC " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="B44wZf5BnNkXLBBZ9b6L-1">
+          <mxGeometry y="250" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B44wZf5BnNkXLBBZ9b6L-7" value="standard tracking MPC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="150" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B44wZf5BnNkXLBBZ9b6L-8" value="economic MPC vs two stages(opt + MPC)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="190" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B44wZf5BnNkXLBBZ9b6L-10" value="Explicit MPC vs Online MPC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="220" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B44wZf5BnNkXLBBZ9b6L-14" value="&lt;div&gt;disturbance estimator&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="245" y="280" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B44wZf5BnNkXLBBZ9b6L-15" value="&lt;div&gt;steady state selection&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="150" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B44wZf5BnNkXLBBZ9b6L-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.012;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.067;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B44wZf5BnNkXLBBZ9b6L-6" target="B44wZf5BnNkXLBBZ9b6L-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="370" as="sourcePoint" />
+            <mxPoint x="450" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B44wZf5BnNkXLBBZ9b6L-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="B44wZf5BnNkXLBBZ9b6L-6" target="B44wZf5BnNkXLBBZ9b6L-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="370" as="sourcePoint" />
+            <mxPoint x="450" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B44wZf5BnNkXLBBZ9b6L-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.736;exitY=-0.033;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.014;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B44wZf5BnNkXLBBZ9b6L-8" target="B44wZf5BnNkXLBBZ9b6L-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="370" as="sourcePoint" />
+            <mxPoint x="450" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B44wZf5BnNkXLBBZ9b6L-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.006;exitY=0.775;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.006;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B44wZf5BnNkXLBBZ9b6L-6" target="B44wZf5BnNkXLBBZ9b6L-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="370" as="sourcePoint" />
+            <mxPoint x="450" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B44wZf5BnNkXLBBZ9b6L-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.024;exitY=0.225;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="B44wZf5BnNkXLBBZ9b6L-13" target="B44wZf5BnNkXLBBZ9b6L-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="370" as="sourcePoint" />
+            <mxPoint x="450" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B44wZf5BnNkXLBBZ9b6L-21" value="&lt;div&gt;feedback MPC (feedback policy as decision variable&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="245" y="325" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B44wZf5BnNkXLBBZ9b6L-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.012;exitY=0.725;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.007;entryY=0.733;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B44wZf5BnNkXLBBZ9b6L-13" target="B44wZf5BnNkXLBBZ9b6L-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="370" as="sourcePoint" />
+            <mxPoint x="450" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
